@@ -165,7 +165,7 @@ h2{
   flex-direction: row;
   align-items: flex-start;
   justify-content:flex-start;
-  padding: 12px;
+  padding: 20px;
   gap: 7px;
 }
 
@@ -174,20 +174,25 @@ button{
   font-family: $font2;
   font-weight: 500;
   padding: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   gap: 5px;
   color:white;
   border-radius: 10px;
   box-shadow:none;
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: $fontsizeparagraph;
   border:none;
+  display: flex;
+  flex-direction: row;
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .attribution{
   position:fixed;
