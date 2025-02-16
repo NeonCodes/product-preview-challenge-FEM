@@ -97,13 +97,15 @@ body {
 }
 
 img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
   align-self: center;
   width: 100%;
   height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 @media (min-width: 1000px) {
@@ -114,22 +116,11 @@ img {
     max-width: 700px;
   }
   img {
+    min-height: 550px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    max-width: 100%;
-    min-height: 550px;
-  }
-  button {
-    padding-right: 2rem;
-    padding-bottom: 0.75rem;
-    padding-top: 0.75rem;
-    gap: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .cart {
     min-width: 23px;
@@ -171,11 +162,8 @@ img {
   }
 }
 @media (min-width: 375px) {
-  img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+  .button {
+    text-align: center;
   }
 }
 .item-information {
@@ -224,7 +212,7 @@ h2 {
   gap: 7px;
 }
 
-button {
+.button {
   background-color: hsl(158, 36%, 37%);
   font-family: "Montserrat";
   font-weight: 500;
@@ -236,7 +224,7 @@ button {
   padding-right: 6rem;
   padding-bottom: 0.75rem;
   padding-top: 0.5rem;
-  gap: 5px;
+  gap: 7px;
   border: none;
   display: flex;
   align-items: center;
@@ -257,6 +245,19 @@ button {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.button:focus {
+  background-color: hsl(212, 21%, 14%);
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.button {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
