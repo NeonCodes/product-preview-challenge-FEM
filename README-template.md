@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/NeonCodes/Blog-preview-card-challenge)
+- Live Site URL:(https://productpagepreviewch.netlify.app/)
 
 ## My process
 
@@ -51,24 +51,18 @@ Users should be able to:
 -Using the picture element
 
 ### Continued development
-Continue to improve on the above and leard CSS grid
+Continue to improve on the above and try CSS grid on a project
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [resource 1](https://www.w3schools.com/sass/default.php) - This helped me understand the basics of Sass. 
+- [resource 2](https://www.freecodecamp.org/news/how-to-use-sass-with-css/) - more Sass docs.
+-[resource 3](https://www.aditus.io/aria/aria-label/) - starting with aria labels
+-[resource 4](https://www.youtube.com/watch?v=Rik3gHT24AM&t=32s)- This video helped me understand how the picture element works
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@NeonCodes](https://www.frontendmentor.io/profile/NeonCodes)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
