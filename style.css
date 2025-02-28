@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/*CSS reset by Picadelli*/
 /* Box sizing rules */
 *,
 *::before,
@@ -81,19 +82,19 @@ html {
   padding: 20px;
 }
 
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 main {
   background-color: hsl(0, 0%, 100%);
   max-width: 345px;
   max-height: 600px;
   border-radius: 10px;
   padding-bottom: 15px;
-}
-
-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
 img {
@@ -169,17 +170,7 @@ img {
 .item-information {
   padding: 15px;
 }
-
-p {
-  color: hsl(228, 12%, 48%);
-  font-size: 0.875rem;
-  font-family: "Montserrat";
-  font-weight: 500;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
-.item-description {
+.item-information .item-description {
   display: flex;
   flex-direction: row;
   align-self: flex-start;
@@ -188,22 +179,19 @@ p {
   line-height: 3.8vh;
   font-weight: 500;
 }
-
-h1 {
+.item-information h1 {
   font-family: "Fraunces";
   font-weight: 700;
   color: hsl(212, 21%, 14%);
   padding-left: 12px;
   padding-right: 12px;
 }
-
-h2 {
+.item-information h2 {
   font-family: "Fraunces";
   font-weight: 700;
   color: hsl(158, 36%, 37%);
 }
-
-.price {
+.item-information .price {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -211,8 +199,7 @@ h2 {
   padding: 10px;
   gap: 7px;
 }
-
-.button {
+.item-information .button {
   background-color: hsl(158, 36%, 37%);
   font-family: "Montserrat";
   font-weight: 500;
@@ -230,10 +217,18 @@ h2 {
   align-items: center;
   justify-content: flex-start;
 }
-
-.cart {
+.item-information .cart {
   max-width: 23px;
   max-height: 25px;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+  font-size: 0.875rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .attribution {
