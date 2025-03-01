@@ -164,7 +164,7 @@ img {
 }
 @media (min-width: 375px) {
   .button {
-    text-align: center;
+    display: inline-block;
   }
 }
 .item-information {
